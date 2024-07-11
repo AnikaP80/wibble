@@ -8,3 +8,7 @@ Instructions:
 1. foam tape around motors (1 foam tape; 2 motors)
 2. printed parts
 3. 65 mm minimum diameter wheel
+
+
+Idea:
+![alt text](image.png)
