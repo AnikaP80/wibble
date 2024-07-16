@@ -26,7 +26,6 @@ header {
     box-shadow: 15px 15px 0 #ff0000, 30px 30px 0 #00bfff; /* Bold, colorful shadow effects */
     position: relative;
     z-index: 1; /* Ensure it’s above other content */
-    margin: 30px;
     margin: 50px;
 }
 
