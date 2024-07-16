@@ -19,7 +19,7 @@ body {
 
 /* Header Styles */
 header {
-    background: #00bfff; /* Deep sky blue background */
+    background:linear-gradient(0deg, #000000cc 0%, #00bfff 100%);/* Deep sky blue background */
     border: 15px solid #ff4500; /* Chunky orange border */
     padding: 40px;
     text-shadow: 5px 5px 0 #000000, 10px 10px 0 #00ff00; /* Chunky, multi-colored text shadow */
@@ -119,7 +119,7 @@ marquee {
 /* Fun Robot Section */
 .robot-fun {
     margin: 30px;
-    background: #ff4500; /* Chunky orange background */
+    background: linear-gradient(180deg, #000000b4 0%, #ff4500 100%); /* Chunky orange background */
     padding: 25px;
     border: 8px solid #00bfff; /* Bold deep sky blue border */
     border-radius: 25px; /* Rounded corners */
