@@ -63,6 +63,7 @@ marquee {
     justify-content: center;
     gap: 15px;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .robot-nav a {
