@@ -27,6 +27,7 @@ header {
     position: relative;
     z-index: 1; /* Ensure it’s above other content */
     margin: 30px;
+    margin: 50px;
 }
 
 header h1 {
