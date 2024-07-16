@@ -8,7 +8,7 @@ body, h1, h2, p {
 /* Body Styles */
 body {
     font-family: 'Press Start 2P', cursive, sans-serif; /* Retro arcade-style font */
-    background: url('bg.png') repeat; /* Robot-themed background */
+    background: url('gundam.jpg') repeat; /* Robot-themed background */
     background-size: 100px 100px; /* Adjust pattern size */
     color: #ffffff; /* White text */
     text-align: center;
@@ -31,7 +31,7 @@ header {
 
 header h1 {
     font-size: 4em;
-    color: #ff00ff; /* Bright magenta text */
+    color: #dd92dd52; /* Bright magenta text */
 }
 
 /* Robot Header Image */
