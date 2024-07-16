@@ -26,6 +26,7 @@ header {
     box-shadow: 15px 15px 0 #ff0000, 30px 30px 0 #00bfff; /* Bold, colorful shadow effects */
     position: relative;
     z-index: 1; /* Ensure it’s above other content */
+    margin: 30px;
 }
 
 header h1 {
@@ -62,8 +63,7 @@ marquee {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin: 50px;
 }
 
 .robot-nav a {
@@ -118,7 +118,7 @@ marquee {
 
 /* Fun Robot Section */
 .robot-fun {
-    margin: 30px auto;
+    margin: 30px;
     background: #ff4500; /* Chunky orange background */
     padding: 25px;
     border: 8px solid #00bfff; /* Bold deep sky blue border */
