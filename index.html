@@ -3,39 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤖💅</title>
-    <link rel="stylesheet" href="website/styles/robot.css">
+    <title>Wibble</title>
+    <link id="theme-stylesheet" rel="stylesheet" href="website/serious/styles/style.css"> <!-- Default Stylesheet -->
+    <script src="styleswitch.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Welcome to the WibbleVerse!</h1>
-        <img src="website/styles/header.png" alt="Robot Header Image" class="robot-header">
-        <marquee behavior="scroll" direction="left" scrollamount="15">
-            <strong>🤖 Get Ready for a Chunky, Funky Wibble Experience! 🤖</strong>
-        </marquee>
+        <!-- <img src="images/robot-header.png" alt="Robot Header Image" class="robot-header"> -->
     </header>
 
+    <button id="toggle-stylesheet" onclick="toggleStylesheet()">Switch to fun theme</button> <!-- Button to Switch Styles -->
+
     <nav class="robot-nav">
-        <a href="#">Home</a>
+        <a id="homepage" href="website/serious/serious_entrypoint.html">Home</a>
         <a href="#">About</a>
         <a href="#">Gallery</a>
         <a href="#">Contact</a>
-        <!-- this is how you add a new page link to the website. PUT ALL NEW HTMLS IN THE WEBSITE OR I WILL LITERALLY CIRCUMCIZE YOU -->
-        <a href="website/temp.html">Temp</a>
     </nav>
 
-    <div class="container">
-        <div class="content">
-            <h2>🤖 Meet Your New Robot Friend! 🤖</h2>
-            <p>Explore the chunky and colorful world of wibble. Dive into our gallery, learn more about wibble, and have fun!</p>
-            <img src="website/styles/header.png" alt="Robot Character" class="robot-character">
-        </div>
-    </div>
-
-    <section class="robot-fun">
-        <h2>🚀 Fun With Wibble 🚀</h2>
-        <p>Check out these awesome features!</p>
-        <a href="#" class="fun-button">Wibble can do literally nothing right now!</a>
-    </section>
 </body>
 </html>
