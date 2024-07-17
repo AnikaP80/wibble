@@ -1,78 +1,103 @@
 /* robot-styles.css */
 
 /* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Set a background color */
-  body {
-    background-color: #f5f5f5;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  /* Create a container with rounded corners and shadow */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style buttons */
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0074d9;
-    color: #ffffff;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: #005ea6;
-  }
-  
-  /* Create a card-like element */
-  .card {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  }
-  
-  /* Add responsive multi-column layout */
-  .column-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  /* Style headings */
-  h1, h2, h3 {
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  
-  /* Add a subtle gradient to buttons */
-  .button-gradient {
-    background: linear-gradient(45deg, #0074d9, #00bfff);
-  }
-  
-  /* Customize other elements as needed */
-  
-  /* Example usage:
-     <div class="container">
-       <h1>Welcome to Robot World</h1>
-       <p>Explore our amazing robot creations!</p>
-       <a href="#" class="button">Learn More</a>
-     </div>
-  */
-  
-  /* Don't forget to link this stylesheet in your HTML! */
-  
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background: linear-gradient(180deg, #e4eae4, #d2dad1);
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+}
+
+.gear_background {
+  position: relative; /* Position relative for the overlay */
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('../photos/stock_gears.png'); /* Path to your background image */
+  background-size: cover; /* Cover the entire header */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  color: white; /* Text color for the header content */
+  text-align: center; /* Center-align the text */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+.image_overlay {
+  position: absolute; /* Position on top of the background image */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, #000000d3, #0000005f); /* Black with 50% opacity */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Container is a basic one with a gray background.  */
+.container {
+  margin: 20px;
+  padding: 30px;
+  background-color: #95959576;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* for buttons in a container */
+.container a {
+  color: #000000; /* Black text */
+  text-decoration: none;
+  background: linear-gradient(0deg, #c5d3c591, #97ab97); /* green background */
+  padding: 5px;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.container a:hover {
+  background: #7d947d; /* Darker on hover */
+  color: #ffffff; /* White text */
+}
+
+/* Add responsive multi-column layout */
+.column-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 10px;
+  gap: 10px;
+}
+
+.column {
+  background-color: #c5d3c591;
+  padding: 10px; /* Space inside each column */
+}
+
+.column_grad_right {
+  background: linear-gradient(90deg, #c5d3c591, #97ab97);
+  padding: 10px; /* Space inside each column */
+}
+.column_grad_left {
+  background: linear-gradient(270deg, #c5d3c591, #97ab97);
+  padding: 10px; /* Space inside each column */
+}
+
+/* Style headings */
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: #4d644d
+}
+
+h0 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color:#c3d1c3;
+  font-size: 30px;
+}

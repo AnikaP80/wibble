@@ -4,23 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wibble</title>
-    <link id="theme-stylesheet" rel="stylesheet" href="website/serious/styles/style.css"> <!-- Default Stylesheet -->
+    <link id="theme-stylesheet" rel="stylesheet" href="website/serious/styles/style.css">
     <script src="styleswitch.js" defer></script>
 </head>
 <body>
+    <!-- TOP BANNER -->
+    <div class="gear_background">
+        <div class="image_overlay">
+            <header>
+                <h0>Welcome to the WibbleVerse!</h0>
+            </header>
+
+            <button id="toggle-stylesheet" 
+
+            <nav class="container">
+                <a id="homepage" href="website/serious/serious_entrypoint.html">Home</a>
+                <a href="#">Project Blog and Progress</a>
+                <a href="#">Gallery</a>
+                <a href="#">Project Overview</a>
+                <a id="toggle-stylesheet" onclick="toggleStylesheet()">Switch theme</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- WIBBLE HEADER -->
     <header>
-        <h1>Welcome to the WibbleVerse!</h1>
-        <!-- <img src="images/robot-header.png" alt="Robot Header Image" class="robot-header"> -->
+        <p>Meet Wibble, our differential-drive robot!</p>
     </header>
 
-    <button id="toggle-stylesheet" onclick="toggleStylesheet()">Switch to fun theme</button> <!-- Button to Switch Styles -->
+    <!-- INFORMATION -->
+    <main>
+        <section id="introduction">
+            <h2>About Wibble</h2>
+            <p>
+                Wibble is a differential-drive robot designed as part of a passion project by two students. Our robot is similar to the TurtleBot and is powered by the latest ROS2 (Robot Operating System 2) technology.
+            </p>
+            <p>
+                Our goal with Wibble is to explore and learn more about robotics, artificial intelligence, and autonomous systems while balancing our school responsibilities. We are excited to share our progress and achievements as we work on this project in our free time.
+            </p>
+        </section>
 
-    <nav class="container">
-        <a id="homepage" href="website/serious/serious_entrypoint.html">Home</a>
-        <a href="#">About</a>
-        <a href="#">Gallery</a>
-        <a href="#">Contact</a>
-    </nav>
+        <section id="features">
+            <h2>Features of Wibble</h2>
+            <ul>
+                <li><strong>Differential-Drive System:</strong> A design that allows Wibble to navigate with precise control and maneuverability.</li>
+                <li><strong>ROS2 Powered:</strong> Utilizing the advanced capabilities of ROS2 for robotics development and experimentation.</li>
+                <li><strong>Student-Driven:</strong> A project managed and developed by two passionate students balancing school and their love for robotics.</li>
+            </ul>
+        </section>
 
+        <section id="team">
+            <h2>Meet the Team</h2>
+            <p>
+                Our project is a collaborative effort between two students who are passionate about robotics and technology.
+            </p>
+            <ul>
+                <div class="column-container">
+                    <div class="column">
+                        <p><strong>Student 1:</strong> Anika - [description]</p>
+                    </div>
+                    <div class="column_grad_right">
+                        <img src="website/serious/photos/anikapfp.png" alt="Anika" width="100%" height="100%">
+                    </div>
+                </div>
+                <div class="column-container">
+                    <div class="column_grad_left">
+                        <img src="website/serious/photos/craigpfp.png" alt="Craig"  width="100%" height="100%">
+                    </div>
+                    <div class="column">
+                        <p><strong>Student 2:</strong> Craig - [description]</p>
+                    </div>
+                </div>
+                
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Feel free to reach out to us with any questions or comments about our project!
+            </p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:anika.k.patel@outlook.com">anika.k.patel@outlook.com</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Keep wibbling!</p>
+    </footer>
 </body>
 </html>
